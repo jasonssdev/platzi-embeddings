@@ -4,11 +4,12 @@ version = "0.1.0"
 description = "Embeddings and Vector Store"
 authors = [{ name = "Jason", email = "jasonssdev@gmail.com" }]
 readme = "README.md"
-requires-python = ">=3.10"
+requires-python = ">=3.11"
 dependencies = [
     "sentence-transformers",
     "notebook",
     "jupyterlab",
+    "ipykernel",
     "ipywidgets",
     "numpy",
     "pandas",

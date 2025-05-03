@@ -263,3 +263,7 @@ $RECYCLE.BIN/
 
 # Ignnore  db
 data/db/*
+
+# users
+data/external/*
+/data/external/*

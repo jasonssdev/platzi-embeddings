@@ -13,6 +13,9 @@ dependencies = [
     "ipywidgets",
     "numpy",
     "pandas",
+    "datasets",
+    "gensim",
+    "nltk",
 ]
 
 [build-system]

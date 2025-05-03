@@ -5,6 +5,7 @@ PROJECT_ROOT = Path(__file__).resolve().parent
 
 # Directories root
 DATA_DIR = PROJECT_ROOT / "data"
+EXTERNAL_DIR = DATA_DIR / "external"
 RAW_DIR = DATA_DIR / "raw"
 DB_DIR = DATA_DIR / "db"
 DOCS_DIR = PROJECT_ROOT / "docs"

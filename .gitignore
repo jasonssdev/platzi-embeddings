@@ -267,3 +267,12 @@ data/db/*
 # users
 data/external/*
 /data/external/*
+/models/*
+models/*
+models.syn1neg.npy
+models.wv.vectors.npy
+data/preprocessed
+data/preprocessed/labels.tsv
+data/preprocessed/embeddings.tsv
+
+

@@ -14,3 +14,6 @@ HTML_DIR = RAW_DIR / "html"
 CSV_DIR = RAW_DIR / "csv"
 PDF_DIR = RAW_DIR / "pdf"
 TXT_DIR = RAW_DIR / "txt"
+MODEL_DIR = PROJECT_ROOT / "models"
+PREPROCESSED_DIR = DATA_DIR / "preprocessed"
+#

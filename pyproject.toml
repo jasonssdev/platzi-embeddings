@@ -5,7 +5,7 @@ description = "Embeddings and Vector Store"
 authors = [{ name = "Jason", email = "jasonssdev@gmail.com" }]
 readme = "README.md"
 requires-python = ">=3.10"
-dependencies = [""]
+dependencies = ["sentence-transformers", "notebook", "jupyterlab", "ipywidgets"]
 
 [build-system]
 requires = ["setuptools>=61.0", "wheel"]

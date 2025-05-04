@@ -16,6 +16,9 @@ dependencies = [
     "datasets",
     "gensim",
     "nltk",
+    "openai",
+    "tiktoken",
+    "python-dotenv"
 ]
 
 [build-system]

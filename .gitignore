@@ -274,5 +274,7 @@ models.wv.vectors.npy
 data/preprocessed
 data/preprocessed/labels.tsv
 data/preprocessed/embeddings.tsv
+data/raw/*
+
 
 

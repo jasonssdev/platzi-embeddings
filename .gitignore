@@ -275,6 +275,7 @@ data/preprocessed
 data/preprocessed/labels.tsv
 data/preprocessed/embeddings.tsv
 data/raw/*
-
+.gradio/
+data/raw/atla-episodes-scripts.csv
 
 

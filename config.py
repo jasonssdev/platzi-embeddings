@@ -16,6 +16,7 @@ def get_settings():
         "openai": os.getenv("OPENAI_API_KEY"),
         "anthropic": os.getenv("ANTHROPIC_API_KEY"),
         "gemini": os.getenv("GEMINI_API_KEY"),
+        "pinecone": os.getenv("PINECONE_API_KEY"),
         "debug": os.getenv("DEBUG", "False").lower() == "true",
         "env": os.getenv("ENV", "development"),
     }
@@ -32,3 +33,5 @@ def validate_settings(settings):
         raise ValueError("Anthropic API key missing in .env")
     if not settings["gemini"]:
         raise ValueError("Gemini API key missing in .env")
+    if not settings["pinecone"]:
+        raise ValueError("Pinecone API key missing in .env")

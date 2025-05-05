@@ -18,7 +18,9 @@ dependencies = [
     "nltk",
     "openai",
     "tiktoken",
-    "python-dotenv"
+    "python-dotenv",
+    "pinecone",
+    "gradio",
 ]
 
 [build-system]
